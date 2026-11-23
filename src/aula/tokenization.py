@@ -22,7 +22,7 @@ print(sentence_tokens)
 
 
 # pre processamento sem alfa numérico,
-def preprossing(text):
+def preprocess(text):
     # transforma para lower
     tokens = nltk.word_tokenize(text.lower())
 
@@ -31,7 +31,7 @@ def preprossing(text):
 
 
 # pre proessamento com alfa numérico para mostrar a diferença do texto final
-def preprossing_alfa(text):
+def preprocess_alfa(text):
     # transforma para lower
     tokens = nltk.word_tokenize(text.lower())
 
@@ -49,9 +49,9 @@ print("\n\n\n\npre processa os tokens sem eliminar alfa numérico")
 
 # aqui " ".join é apenas a título de exemplo, para a leitura do print ficar mais simples
 # mas na prática " ".join() estaria "revertendo" o word_tokenize, e não faria sentido usar
-preprocessed_docs = [" ".join(preprossing(doc)) for doc in documents]
+preprocessed_docs = [" ".join(preprocess(doc)) for doc in documents]
 print(preprocessed_docs)
 
 print("\n\n\n\npre processa os tokens com alfa numérico e sem join")
-preprocessed_docs = [preprossing_alfa(doc) for doc in documents]
+preprocessed_docs = [preprocess_alfa(doc) for doc in documents]
 print(preprocessed_docs)

@@ -12,6 +12,7 @@ dependencies = [
     "nltk>=3.10.4",
     "openai>=3.52.0",
     "pydantic>=2.14.3",
+    "scikit-learn>=1.9.1",
 ]
 
 [project.scripts]
