@@ -1,0 +1,27 @@
+[project]
+name = "curso-ia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Miqueias dos Santos Sousa Assad", email = "mi.queias2010@hotmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.163.1",
+    "nltk>=3.10.4",
+    "openai>=3.52.0",
+    "pydantic>=2.14.3",
+]
+
+[project.scripts]
+curso-ia = "curso_ia:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
