@@ -13,6 +13,15 @@ Repositório de estudos sobre IA, escrito para ser didático. Cada etapa do apre
 | 5 | Subword (BPE do zero) | [docs/05](docs/05-tokenizacao-subword.md) | [bpe.py](src/curso_ia/tokenization/bpe.py) | `examples/04_bpe.py` |
 | 6 | Comparação e escolha | [docs/06](docs/06-comparacao-e-escolha.md) | n/a | n/a |
 
+## Trilha atual: sistemas de recuperação (só teoria, sem código por enquanto)
+
+| # | Tema | Doc |
+|---|---|---|
+| 7 | Visão geral, índice invertido, avaliação | [docs/07](docs/07-sistemas-de-recuperacao.md) |
+| 8 | Boolean retrieval | [docs/08](docs/08-boolean-retrieval.md) |
+| 9 | Vector space model (TF-IDF e cosseno) | [docs/09](docs/09-vector-space-model.md) |
+| 10 | Modelo probabilístico (BIM e BM25) | [docs/10](docs/10-modelo-probabilistico.md) |
+
 Links de estudo: [docs/referencias.md](docs/referencias.md)
 
 ## Como rodar
@@ -37,6 +46,7 @@ src/curso_ia/tokenization/ # implementações
 
 ## Próximas etapas
 
+- Implementar em código os modelos de recuperação (índice invertido, TF-IDF, BM25)
 - Vocabulário e IDs
 - Subword com `tiktoken` e `tokenizers`
 - Embeddings

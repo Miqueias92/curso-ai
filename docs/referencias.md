@@ -26,3 +26,10 @@
 ## Vídeos
 
 - [Andrej Karpathy: Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)
+
+## Recuperação de informação
+
+- [Manning, Raghavan, Schütze: Introduction to Information Retrieval (livro online gratuito)](https://nlp.stanford.edu/IR-book/)
+- [Robertson e Zaragoza (2009): The Probabilistic Relevance Framework: BM25 and Beyond](https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf)
+- [Salton, Wong, Yang (1975): A Vector Space Model for Automatic Indexing](https://dl.acm.org/doi/10.1145/361219.361220)
+- [Elasticsearch: Practical BM25](https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables)
